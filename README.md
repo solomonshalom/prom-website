@@ -1,4 +1,4 @@
-# Strive Summer Hackathon Website
+# Dream The Night - Promo Website
 
 ## Stack
 
@@ -18,7 +18,7 @@
 
 ### Branding
 
-Tailwind is preconfigured to provide color mappings for Strive brand colors with the usual scaling options.
+Tailwind is preconfigured to provide color mappings for the brand colors with the usual scaling options.
 
 - `brand-*`  - Branded hue of blue. (examples: `brand-100, brand-200, brand-300, etc...)
 - `brand2-*` - Branded hue of green. (examples: `brand2-100, brand2-200, brand2-300, etc...)

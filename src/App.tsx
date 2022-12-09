@@ -34,7 +34,7 @@ function App() {
         <div>
           <button className="text-sm text-white/50 uppercase tracking-widest" type="button" onClick={() => toggleBonus(!bonus)}>June 2022</button>
           <div className="call-to-action">
-              The world is your <span className='border-b-8 border-brand3-600'>canvas</span>.
+              Dream The <span className='border-b-8 border-brand3-600'>Night</span>.
           </div>
         </div>
         </Transition>

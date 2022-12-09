@@ -33,10 +33,10 @@ export function MineSweeper({active = false}: {active: boolean}) {
         <div className="font-bold text-[64px]">{flippedItems.length}</div>
       </Dialog.Title>
       <p className="leading-2 pt-8 text-center font-light">
-        Thanks for playing!<br /> Strive Consulting make all kinds of neat things - maybe we can make something for you?
+        Thanks for playing!<br /> Interested in joining bangalore's first prom night? click below to know more!
       </p>
       <div title="actions-menu" className="pt-8 flex justify-center items-center">
-        <a href='https://striveconsulting.com/contact-us/' target='_blank'>
+        <a href='#' target='_blank'>
         <button
           type="button"
           className=" rounded
@@ -45,7 +45,7 @@ export function MineSweeper({active = false}: {active: boolean}) {
           px-4 ring ring-brand-500 bg-brand-500 text-white"
           onClick={() => handleClose()}
         >
-          Contact Us
+          Know More!
         </button>
         </a>
         <button
