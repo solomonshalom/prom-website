@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+  body {
+    @apply bg-white;
+    @apply overflow-hidden;
+    @apply h-[100%];
+    @apply text-black dark:text-white;
+    @apply dark:bg-gray-800 dark:text-white;
+  }
+  h4 {
+    @apply text-gray-400;
+    @apply font-semibold;
+    @apply text-xs uppercase;
+    @apply tracking-widest;
+    @apply leading-relaxed;
+  }
+
+  button.ui {
+    @apply justify-center w-auto items-center;
+    @apply text-sm font-medium text-white dark:bg-black/10 bg-white rounded-md;
+    @apply bg-opacity-10 hover:bg-opacity-20;
+    @apply transition-all duration-200;
+    @apply focus:outline-none focus-visible:ring-0 focus-visible:ring-white focus-visible:ring-opacity-75;
+    @apply px-2 py-2 sm:px-4 sm:py-2;
+    @apply text-black/75 dark:text-white/90 dark:hover:text-white;
+
+    * { @apply focus:outline-none focus-visible:ring-0 active:ring-0 }
+  }
+
+  .call-to-action {
+    @apply transition-all duration-500;
+    @apply pt-4;
+    @apply text-[40px] leading-[36px] sm:text-[72px] sm:leading-[60px];
+    @apply lg:text-[96px] lg:leading-[72px];
+    @apply max-w-md text-white;
+    @apply tracking-tighter font-serif text-center;
+  }
+
+  .App-backdrop {
+    @apply h-screen w-screen fixed;
+    @apply min-h-screen;
+    @apply to-brand-800 via-brand-700 from-brand-300;
+    @apply dark:to-brand-900 dark:via-brand-800 dark:from-brand-500;
+    @apply bg-gradient-to-bl;
+    @apply transition-all duration-200;
+    @apply brightness-150 dark:brightness-125;
+  }
+
+
+
+  .App-container {
+    @apply h-screen w-screen fixed;
+    @apply justify-center items-center text-center;
+    @apply gap-4 h-screen;
+    @apply flex flex-col;
+  }
+
+  .App-menu-items {
+    @apply z-10 w-40;
+    @apply bg-white/75 backdrop-blur-sm divide-y divide-white/25;
+    @apply rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none;
+  }
+
+  .App-header {
+    @apply flex items-center justify-center;
+    @apply text-base py-3 h-16;
+    @apply text-base font-sans;
+    @apply fixed bottom-2 w-screen;
+    @apply dark:text-white;
+    @apply px-8;
+    @apply max-w-[100%] w-full;
+
+
+    h2 { @apply text-xl font-normal; }
+    h2 div { @apply -mb-4 }
+    h2 span {
+      @apply font-semibold text-xs tracking-tight;
+      @apply flex-nowrap whitespace-nowrap mr-8;
+    }
+  }
+}
+
+@keyframes hueCycle {
+  from {
+    backdrop-filter: hue-rotate(0deg);
+  }
+  25% {
+    backdrop-filter: hue-rotate(30deg);
+  }
+  50% {
+    backdrop-filter: hue-rotate(0deg);
+  }
+  75% {
+    backdrop-filter: hue-rotate(30deg);
+  }
+  to {
+    backdrop-filter: hue-rotate(0deg);
+  }
+}
