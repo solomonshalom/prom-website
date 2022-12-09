@@ -23,7 +23,7 @@ export function AppHeader({className = ''}: {className:string}) {
     <Animate appear={true} show={menuOpen} preset="fade">
       <div className="container flex">
         <div className='flex-0 hover:-translate-y-1 transition-all duration-250'>
-        <a href="#" target="_blank" className="flex pb-1.5 pr-2">
+        <a href="https://instagram.com/2023promnight" target="_blank" className="flex pb-1.5 pr-2">
           <div className='flex items-center gap-2 flex-shrink-0'>
           <div><img src={darkMode ? lightLogo : logoUrl} className='h-6 w-6 translate-y-0.5 opacity-90'/></div>
           <div className='flex flex-col items-left text-left justify-center -space-y-2 text-black/75 dark:text-white/90 dark:hover:text-white'>

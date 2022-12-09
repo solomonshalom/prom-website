@@ -36,7 +36,7 @@ export function MineSweeper({active = false}: {active: boolean}) {
         Thanks for playing!<br /> Interested in joining bangalore's first prom night? click below to know more!
       </p>
       <div title="actions-menu" className="pt-8 flex justify-center items-center">
-        <a href='#' target='_blank'>
+        <a href='https://instagram.com/2023promnight' target='_blank'>
         <button
           type="button"
           className=" rounded
